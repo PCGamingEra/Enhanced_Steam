@@ -360,7 +360,7 @@
         "about_text": "<div class=\"header\">Acerca de <a href='http://www.pcgamingera.com'>Enhanced Steam PCGamingera version</a>:</div><p>Enhanced Steam PCGamingera version es una extensión para Google Chrome que añade un montón de características nuevas a la página de Steam.<p>Características incluidas:<ul><li>Resaltar juegos que ya tienes</li><li>Resaltar juegos de tu lista de deseados</li><li>Calcular el precio real de todos los juegos que tienes con sus descuentos correspondientes</li><li>Mostrar cuánto dinero has gastado en Steam en la vida de tu cuenta</li><li>Resaltar las DLC que ya tienes</li><li>Solucionar las imágenes no disponibles de juegos o DLC de tu lista de deseados</li><li>Advertirte de títulos con DRM de terceros</li></ul><p>Si esta extensión te parece útil, valora la opción de realizar una donación.",
         "stores_all": "Comparar todas las tiendas",
         "show_early_access_text": "Mostrar banners de Acceso Anticipado en las imágenes",
-        "author_info": "por jshackles",
+        "author_info": "por jshackles and PCGamingERA team",
         "profile_link_images_gray": "Escala de grises",
         "quickinv": "Mostrar botones de venta rápida en los elementos del inventario de la comunidad de Steam",
         "quickinv_diff": "Modificador de venta rápida:",
