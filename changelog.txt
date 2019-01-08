@@ -10,8 +10,8 @@ PCGamingERA v0.1
 : Updated GitHub and other links to ResetERA and PCGamingERA links
 + added new logos
 : added new group links
-: added localization
-: added premade chrome extension 
+: added localization for english and initial spanish 
+: added premade chrome extension
 
 
 v9.9
