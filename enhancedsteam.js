@@ -6983,7 +6983,7 @@ function change_user_background() {
 		}
 	}
 }
-
+// es background code, disable on 31st
 function add_es_background_selection() {
 	storage.get(function(settings) {
 		if (settings.showesbg === undefined) { settings.showesbg = true; storage.set({'showesbg': settings.showesbg}); }
@@ -7078,7 +7078,7 @@ function add_es_background_selection() {
 		}
 	});
 }
-
+//es style selection, disable on 31st
 function add_es_style_selection() {
 	if (window.location.pathname.indexOf("/settings") < 0) {
 		var steam64 = $(document.body).html().match(/g_steamID = \"(.+)\";/)[1];
