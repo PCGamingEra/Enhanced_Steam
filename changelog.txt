@@ -1,4 +1,17 @@
-﻿v9.9
+PCGamingERA v0.1
+
+-----
+
++Initial commit
+: changed enhancedsteam.com endpoints to pcgamingera.com
+: Updated author information from just Jshackles to PCGamingERA and Jshackles and rest
+: Changed logos
+: Changed English localization to more accurate
+: Updated GitHub and other links to ResetERA and PCGamingERA links 
++ added new logos
+
+
+v9.9
 -----
 + Added an option to toggle the display of the Enhanced Steam loading and status bar
 : Fixed a bug that caused custom wallet amounts not to process correctly
@@ -60,7 +73,7 @@ v9.5
 : Fixed a bug that caused "Not Interested" highlighting not to work correctly on activity pages
 : Fixed a bug that caused Twitch streaming info not to display on profiles without a showcase activated
 - Removed market relisting function, as this is no longer supported by Valve
-- Removed support for Coinplay.io in price comparisons 
+- Removed support for Coinplay.io in price comparisons
 
 v9.4
 -----
@@ -591,9 +604,9 @@ v6.5
 
 v6.4.1
 -----
-: Fixed a bug where SteamCardExchange links weren't showing properly 
-: Fixed a bug where sometimes a user's wishlist wouldn't load properly 
-: Fixed a bug that would cause highlighting to not work correctly for some users 
+: Fixed a bug where SteamCardExchange links weren't showing properly
+: Fixed a bug where sometimes a user's wishlist wouldn't load properly
+: Fixed a bug that would cause highlighting to not work correctly for some users
 : Fixed a bug that caused PCGamingWiki links not to show correctly
 
 v6.4
@@ -729,7 +742,7 @@ v5.7
 : Price history now shows for all apps on a store page, not just the first
 : Fixed a bug that caused early access banners on the "featured" section to not position correctly
 : Fixed a bug that caused regional pricing on sale pages to sometimes display incorrectly
-: Fixed a bug that broke formatting on badge page when crafting badges in certain situations 
+: Fixed a bug that broke formatting on badge page when crafting badges in certain situations
 
 v5.6.1
 -----
@@ -1109,7 +1122,7 @@ v3.1
 + Added tags feature (owned, wishlisted, coupons, gift, guest pass, friends-want).
 + Added "Empty Wishlist" button (May be slow on large wishlists).
 + Added new feature - storefront carousel app descriptions.
-+ Re-wrote price tab which now shows current best and historical best deals.  
++ Re-wrote price tab which now shows current best and historical best deals.
 + Added price tab to game bundles.
 + Added links to SteamDB on store pages, app hubs, and official groups.
 : Changed from page scraping to Valve Storefront API (faster!)

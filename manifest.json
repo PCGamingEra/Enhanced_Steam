@@ -1,9 +1,9 @@
 {
-    "name": "Enhanced Steam",
-    "version": "9.9",
+    "name": "Enhanced Steam by PCGamingERA",
+    "version": "0.1",
     "description": "Enhances the Steam Experience",
     "icons": {
-        "128": "img/enhancedsteam.png"
+        "128": "img/pcgamingera.png"
     },
     "manifest_version": 2,
     "options_ui": {
@@ -22,14 +22,14 @@
         "css/*.css",
         "options.html",
         "changelog_new.html",
-        "img/*/*.png",        
+        "img/*/*.png",
         "img/profile_styles/*/header.jpg",
         "img/profile_styles/*/showcase.png",
         "img/profile_styles/*/style.css",
         "img/profile_styles/*/preview.png",
         "localization/*/strings.json"
     ],
-    "homepage_url": "http://www.EnhancedSteam.com/",
+    "homepage_url": "http://www.pcgamingera.com/",
     "content_scripts": [
         {
             "matches": [
