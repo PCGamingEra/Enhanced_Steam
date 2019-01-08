@@ -2040,6 +2040,8 @@ function add_enhanced_steam_options() {
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.pcgamingera.com">${ localized_strings.website }</a>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//${ localized_strings.official_group_url }">${ localized_strings.official_group }</a>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//pcgamingera.com/donate/">${ localized_strings.donate }</a>
+					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.resetera.com">${ localized_strings.resetera}</a>
+					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.metacouncil.com">${ localized_strings.metacouncil}</a>
 				</div>
 			</div>
 		</div>

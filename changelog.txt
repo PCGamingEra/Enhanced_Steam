@@ -7,8 +7,11 @@ PCGamingERA v0.1
 : Updated author information from just Jshackles to PCGamingERA and Jshackles and rest
 : Changed logos
 : Changed English localization to more accurate
-: Updated GitHub and other links to ResetERA and PCGamingERA links 
+: Updated GitHub and other links to ResetERA and PCGamingERA links
 + added new logos
+: added new group links
+: added localization
+: added premade chrome extension 
 
 
 v9.9
