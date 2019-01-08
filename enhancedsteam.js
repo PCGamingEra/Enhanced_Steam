@@ -1,6 +1,6 @@
 var version = "1.0";
 
-var console_info = ["PCGamingERA v" + version + " by PCGamingERA based on work of jshackles %c pcgamingera.com ", "background: #000000;color: #7EBE45", "background: #000000;color: #ffffff", ""];
+var console_info = ["Enhanced Steam PCGamingERAversion v" + version + " by PCGamingERA based on work of jshackles", "background: #000000;color: #7EBE45", "background: #000000;color: #ffffff", ""];
 console.log.apply(console, console_info);
 
 var storage = chrome.storage.sync || chrome.storage.local;

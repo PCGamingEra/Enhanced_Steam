@@ -1,12 +1,9 @@
-Enhanced Steam
+Enhanced Steam PCGamingERA version
 ==============
 
-Enhanced Steam is an open-source Google Chrome browser extension.  
+Enhanced Steam PCGamingERA version is an open-source Google Chrome browser extension based on the Enhanced Steam by Jshackles (http://www.enhancedsteam.com).  
 
-**Please note, development of this project has ended.  [You can read more about Enhanced Steam's end of life here.](http://www.enhancedsteam.com/blog/?p=256)**
-
-If you are looking for the Firefox version, you can find it here
-https://github.com/jshackles/Enhanced_Steam_Firefox.
+Currently we don't have a FireFox version.
 
 Features
 ------------
@@ -18,18 +15,14 @@ Features
 * Showing total money spent on Steam
 * Highlighting DLCs you own on a game page
 * Fixing "No Image Available" game icons on your wishlist
+* PCGamingERA Community features such as special reshades and other stuff
 * And more!
 
 Installation
 ------------
 
-##### Automatic
-Click [here](https://www.enhancedsteam.com/download/) and follow the instructions
-
-_(Not Working? Try [The Chrome Web Store](https://chrome.google.com/webstore/detail/enhanced-steam/okadibdjfemgnhjiembecghcbfknbfhg) and just click "Add to Chrome")_
-
 ##### Manual
-1. Clone this repo to a folder. You can choose either the [master / stable](https://github.com/jshackles/Enhanced_Steam/tree/master) or [dev / unstable](https://github.com/jshackles/Enhanced_Steam/tree/dev) branch.
+1. Clone this repo to a folder.
 2. Open the 'Extensions' tab in Chrome's Settings.
 3. Tick 'Developer Mode' in the top right corner of the screen.
 4. Click 'Load unpacked extension...' and navigate to the cloned repo.
@@ -37,10 +30,6 @@ _(Not Working? Try [The Chrome Web Store](https://chrome.google.com/webstore/det
 
 Translators
 -------
-
-Please head over to http://translation.enhancedsteam.com to help out with translations!
-
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/enhanced-steam/localized.svg)](http://translation.enhancedsteam.com)
 
 License
 -------
