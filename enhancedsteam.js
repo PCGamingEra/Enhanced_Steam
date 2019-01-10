@@ -2034,19 +2034,18 @@ function add_enhanced_steam_options() {
 					<a class="popup_menu_item" id="es_clear_cache" href="#clear_cache">${ localized_strings.clear_cache }</a>
 					<div class="hr"></div>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//github.com/pcgamingera/Enhanced_Steam">${ localized_strings.contribute }</a>
-					<a class="popup_menu_item" target="_blank" href="` + protocol + `//translation.pcgamingera.com">${ localized_strings.translate }</a>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//github.com/pcgamingera/Enhanced_Steam/issues">${ localized_strings.bug_feature }</a>
 					<div class="hr"></div>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.pcgamingera.com">${ localized_strings.website }</a>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//${ localized_strings.official_group_url }">${ localized_strings.official_group }</a>
-					<a class="popup_menu_item" target="_blank" href="` + protocol + `//pcgamingera.com/donate/">${ localized_strings.donate }</a>
-					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.resetera.com">${ localized_strings.resetera}</a>
-					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.metacouncil.com">${ localized_strings.metacouncil}</a>
 				</div>
 			</div>
 		</div>
 	`);
-
+	// inactive links saved for future use if needed for above pop-up menu. 
+// 		<a class="popup_menu_item" target="_blank" href="` + protocol + `//pcgamingera.com/donate/">${ localized_strings.donate }</a>
+//							<a class="popup_menu_item" target="_blank" href="` + protocol + `//translation.pcgamingera.com">${ localized_strings.translate }</a>
+//						<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.resetera.com">${ localized_strings.resetera}</a>
 	$('#es_clear_cache').on('click', function(e){
 		e.preventDefault();
 
