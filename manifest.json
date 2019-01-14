@@ -1,7 +1,7 @@
 {
     "name": "Enhanced Steam by PCGamingERA",
     "version": "0.1",
-    "description": "Enhances the Steam Experience in a new way",
+    "description": "PCGamingERA's version of Enhanced Steam by Jshackles",
     "icons": {
         "128": "img/pcgamingera.png"
     },

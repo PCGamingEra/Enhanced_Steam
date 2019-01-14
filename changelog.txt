@@ -1,5 +1,6 @@
-PCGamingERA v0.1
+SteamERA v0.1
 
+First steps to SteamERA
 -----
 
 +Initial commit
@@ -10,9 +11,10 @@ PCGamingERA v0.1
 : Updated GitHub and other links to ResetERA and PCGamingERA links
 + added new logos
 : added new group links
-: added localization for english and initial spanish 
-: added premade chrome extension
-
+: added localization for english and initial spanish
+: added premade chrome extension for GitHub
++ Added Discord link
++ Added Extension to Chrome Webstore
 
 v9.9
 -----

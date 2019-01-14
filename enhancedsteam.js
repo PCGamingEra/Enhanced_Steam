@@ -2027,7 +2027,7 @@ function version_check() {
 function add_enhanced_steam_options() {
 	$('#global_action_menu').prepend(`
 		<div id="es_menu">
-			<span id="es_pulldown" class="pulldown global_action_link" onclick="ShowMenu( this, 'es_popup', 'right', 'bottom', true );">Enhanced Steam by PCGamingERA</span>
+			<span id="es_pulldown" class="pulldown global_action_link" onclick="ShowMenu( this, 'es_popup', 'right', 'bottom', true );">SteamERA</span>
 			<div id="es_popup" class="popup_block_new">
 				<div class="popup_body popup_menu">
 					<a class="popup_menu_item" target="_blank" href="${ chrome.extension.getURL("options.html") }">${ localized_strings.thewordoptions }</a>
@@ -2038,6 +2038,7 @@ function add_enhanced_steam_options() {
 					<div class="hr"></div>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//www.pcgamingera.com">${ localized_strings.website }</a>
 					<a class="popup_menu_item" target="_blank" href="` + protocol + `//${ localized_strings.official_group_url }">${ localized_strings.official_group }</a>
+					<a class="popup_menu_item" target="_blank" href="` + protocol + `//discord.gg/RPwPfKF">${ localized_strings.discord }</a>
 				</div>
 			</div>
 		</div>
@@ -3226,7 +3227,7 @@ function add_hide_buttons_to_search() {
 						</div>
 					</div>
 				</div>
-	<div class="see_all_expander" href="#" id="es_hide_expander" style="cursor: pointer;"></div>
+				<div class="see_all_expander" href="#" id="es_hide_expander" style="cursor: pointer;"></div>
 			</div>
 		`);
 		$("#es_hide_expander").text($(".see_all_expander:last").text());
