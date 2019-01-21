@@ -633,7 +633,10 @@ the "copyright" line and a pointer to where the full notice is found.
 
     Enhanced Steam is an Extension for Google Chrome that adds many new
     features to the Steam website.
-    Copyright (C) 2012-2016  Jason Shackles
+    Copyright (C) 2012-2019  Jason Shackles
+
+    SteamERA is a fork of Enhanced Steam by Jason Shackles made by PCGamingERA
+    Copyright (C) 2019-2020 PCGamingERA. This program comes with ABSOLUTELY NO WARRANTY.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -653,8 +656,13 @@ Also add information on how to contact you by electronic and paper mail.
   If the program does terminal interaction, make it output a short
 notice like this when it starts in an interactive mode:
 
-    Enhanced Steam  Copyright (C) 2012-2016  Jason Shackles
+    Enhanced Steam  Copyright (C) 2012-2019  Jason Shackles
     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+    This is free software, and you are welcome to redistribute it
+    under certain conditions; type `show c' for details.
+
+    SteamERA is a fork of Enhanced Steam by Jason Shackles made by PCGamingERA
+    Copyright (C) 2019-2020 PCGamingERA. This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
     This is free software, and you are welcome to redistribute it
     under certain conditions; type `show c' for details.
 

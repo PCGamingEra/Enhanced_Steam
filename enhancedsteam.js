@@ -1,6 +1,5 @@
 var version = "1.0";
-
-var console_info = ["Enhanced Steam PCGamingERAversion v" + version + " by PCGamingERA based on work of jshackles", "background: #000000;color: #7EBE45", "background: #000000;color: #ffffff", ""];
+var console_info = ["%cEnhanced %cSteam PCGamingERAversion v" + version + " by PCGamingERA based on work of jshackles", "background: #000000;color: #7EBE45", "background: #000000;color: #ffffff", ""];
 console.log.apply(console, console_info);
 
 var storage = chrome.storage.sync || chrome.storage.local;
@@ -63,7 +62,7 @@ var localization_promise = (function () {
 				l_deferred.resolve();
 			} else {
 				$.ajax({
-					url: chrome.extension.getURL('/localization/' + l_code + '/strings.json'),
+					url: chrome.extension.getURL('/localization/en/strings.json'),
 					mimeType: "application/json",
 					success: function (data_localized) {
 						localized_strings = $.extend(true, data, data_localized);
@@ -2560,7 +2559,7 @@ function show_pricing_history(appid, type) {
 			}
 		}
 	});
-}
+ }
 
 // Add red warnings for 3rd-party DRMs
 function drm_warnings(type) {
@@ -3924,7 +3923,7 @@ function add_hltb_info(appid) {
 						how_long_html += "</div>"
 							+ "<a class='linkbar' href='" + escapeHTML(data['url']) + "' target='_blank'>" + localized_strings.more_information + " <img src='" + protocol + "//store.steampowered.com/public/images/v5/ico_external_link.gif' border='0' align='bottom'></a>"
 							+ "<a class='linkbar' href='" + escapeHTML(data['submit_url']) + "' target='_blank'>" + localized_strings.hltb.submit + " <img src='" + protocol + "//store.steampowered.com/public/images/v5/ico_external_link.gif' border='0' align='bottom'></a>"
-							+ "<a class='linkbar' href='" + protocol + "//www.pcgamingera.com/gamedata/hltb_link_suggest.php' id='suggest'>" + localized_strings.hltb.wrong + " - " + localized_strings.hltb.help + " <img src='" + protocol + "//store.steampowered.com/public/images/v5/ico_external_link.gif' border='0' align='bottom'></a>"
+							+ "<a class='linkbar' href='" + protocol + "//www.pcgamingera.com' id='suggest'>" + localized_strings.hltb.wrong + " - " + localized_strings.hltb.help + " <img src='" + protocol + "//store.steampowered.com/public/images/v5/ico_external_link.gif' border='0' align='bottom'></a>"
 							+ "</div></div></div>";
 						$("div.game_details:first").after(how_long_html);
 					} else {
@@ -3932,7 +3931,7 @@ function add_hltb_info(appid) {
 							+ "<div class='block_header'><h4>How Long to Beat</h4></div>"
 							+ "<div class='block_content'><div class='block_content_inner'><div class='details_block'>"
 							+ localized_strings.hltb.no_data + "</div>"
-							+ "<a class='linkbar' href='" + protocol + "//www.pcgamingera.com/gamedata/hltb_link_suggest.php' id='suggest'>" + localized_strings.hltb.help + " <img src='" + protocol + "//store.steampowered.com/public/images/v5/ico_external_link.gif' border='0' align='bottom'></a>"
+							+ "<a class='linkbar' href='" + protocol + "//www.pcgamingera.com' id='suggest'>" + localized_strings.hltb.help + " <img src='" + protocol + "//store.steampowered.com/public/images/v5/ico_external_link.gif' border='0' align='bottom'></a>"
 							+ "</div></div></div>";
 						$("div.game_details:first").after(how_long_html);
 					}

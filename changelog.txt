@@ -7,7 +7,7 @@ First steps to SteamERA
 : changed enhancedsteam.com endpoints to pcgamingera.com
 : Updated author information from just Jshackles to PCGamingERA and Jshackles and rest
 : Changed logos
-: Changed English localization to more accurate
+: Changed English localization to more accurate. Only English is supported at this point. We are working to add other languages as fast as we can.
 : Updated GitHub and other links to ResetERA and PCGamingERA links
 + added new logos
 : added new group links
@@ -15,6 +15,9 @@ First steps to SteamERA
 : added premade chrome extension for GitHub
 + Added Discord link
 + Added Extension to Chrome Webstore
+
+
+Enhanced Steam by Jason "jshackles" Shackles
 
 v9.9
 -----

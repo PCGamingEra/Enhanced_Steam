@@ -1,9 +1,10 @@
 {
-    "name": "Enhanced Steam by PCGamingERA",
+    "name": "SteamERA",
+    "short_name": "SteamERA",
     "version": "0.1",
-    "description": "PCGamingERA's version of Enhanced Steam by Jshackles",
+    "description": "SteamERA enhances your Steam Store experience with various new features, based on Enhanced Steam by jshackles",
     "icons": {
-        "128": "img/pcgamingera.png"
+        "128": "img/icon.png"
     },
     "manifest_version": 2,
     "options_ui": {
