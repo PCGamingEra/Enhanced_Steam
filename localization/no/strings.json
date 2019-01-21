@@ -10,9 +10,8 @@
     "official_group_url": "steamcommunity.com/groups/resetera",
     "remove": "Fjern",
     "get_help": "Få hjelp",
-    "resetera": "ResetERA",
-    "metacouncil": "MetaCouncil",
     "add_selected_dlc_to_cart": "Legg valgte DLC i handlevogn",
+    "discord": "Bli med i vår Discord!",
     "credits": "Bidragsytere",
     "store_transactions": "Butikktransaksjoner",
     "activates": "Aktiveres på Steam",
@@ -52,6 +51,8 @@
     "apppage_sections": "Velg delene du ønsker å se på denne siden",
     "search_error": "Feil under lasting av flere søkeresultater",
     "website": "Nettsted",
+    "resetera": "ResetERA",
+    "metacouncil": "MetaCouncil",
     "games": "Spill",
     "total_time": "Total tid",
     "dlc_suggest": "Foreslå en ny kategori",
@@ -82,7 +83,7 @@
     "badges_all": "Alle merker",
     "comparison_mode": "Aktiver oversikt over alle spill for å se sammenligning av spill",
     "search": "Søk",
-    "es_supporter": "Cool Gubben from PCGamingERA",
+    "es_supporter": "PCGamingERA Merker",
     "view_to_scale": "Vis i skala",
     "videos": "Videoer / Trailere",
     "community": "Samfunn",
@@ -159,6 +160,7 @@
     "visit_store": "Besøk butikkside",
     "all": "Alle",
     "total_spent": "Totalt brukt",
+    "external_funds": "Eksterne Midler Brukt",
     "games_with_drops": "__dropsgames__ spill med slipp gjenstår",
     "binder_view": "Permvisning",
     "view_stats": "Vis statistikk",
@@ -502,7 +504,8 @@
     },
     "wallet": {
         "custom_amount": "Legg til egendefinert antall",
-        "custom_amount_text": "Legg til hvilket som helst beløp over __minamount__"
+        "custom_amount_text": "Legg til hvilket som helst beløp over __minamount__",
+        "custom_giftcard_amount": "Velg __input__ Egendefinert Gavekort (valgfritt beløp over __minamount__)"
     },
     "wsgf": {
         "incomplete": "Uferdig",
